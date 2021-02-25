@@ -1,0 +1,19 @@
+{
+    "name": "dk2013/package-example",
+    "description": "Demo composer package. Also for packagist. Developed by Dmitriy Korytnyi for Otus.ru",
+    "type": "project",
+    "license": "BSD 2-Clause License",
+    "authors": [
+        {
+            "name": "Dmitriy Korytnyi",
+            "email": "dmitriy.korytnyi@optimusite.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "dk2013\\PackageExample\\": "src/"
+        }
+    }
+}
